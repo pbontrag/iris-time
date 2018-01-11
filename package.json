@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/service.js",
   "scripts": {
-    "test": "NODE_ENV=TEST eslint bin server && nyc mocha --recursive test",
+    "test": "NODE_ENV=TEST snyk test && eslint bin server && nyc mocha --recursive test",
     "start": "node bin/run"
   },
   "engines": {
