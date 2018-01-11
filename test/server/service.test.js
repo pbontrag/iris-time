@@ -30,7 +30,3 @@ describe('The express service', () => {
 		});
 	});
 });
-
-/**
- * FIXME: finish this
- **/
